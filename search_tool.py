@@ -1,5 +1,5 @@
 import requests
-from env_variables import OPENAI_API_KEY, GOOGLE_API_KEY
+from env_variables import GOOGLE_API_KEY
 from langchain.agents import tool
 import os
 

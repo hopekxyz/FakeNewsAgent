@@ -33,6 +33,6 @@ agent = create_openai_functions_agent(
 
 agent_executor = AgentExecutor(agent = agent, tools = tools, verbose = True)
 
-question = "Eu vi uma notícia de que a Terra não é plana. Isso é verdade?"
+question = input("Qual é a sua pergunta? ")
 resultado = agent_executor.invoke({"question": question})
 
