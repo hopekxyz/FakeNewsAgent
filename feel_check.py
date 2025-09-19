@@ -1,0 +1,1 @@
+# A SER FEITO. Vai ser uma IA em separado que vai fazer a análise de sentimentos da notícia e passar pro Chat.
